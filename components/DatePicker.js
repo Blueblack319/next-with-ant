@@ -6,9 +6,11 @@
  * guidelines at https://ant.design/docs/react/replace-moment) instead of the
  * webpack plugin fixes that bug.
  */
-import dayjsGenerateConfig from 'rc-picker/lib/generate/dayjs'
-import generatePicker from 'antd/lib/date-picker/generatePicker'
 
-const DatePicker = generatePicker(dayjsGenerateConfig)
+// Custom DatePicker that uses Day.js instead of Moment.js
+import dayjsGenerateConfig from 'rc-picker/lib/generate/dayjs';
+import generatePicker from 'antd/lib/date-picker/generatePicker';
 
-export default DatePicker
+const DatePicker = generatePicker(dayjsGenerateConfig);
+
+export default DatePicker;
