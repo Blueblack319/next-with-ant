@@ -10,14 +10,17 @@
     "@ant-design/icons": "4.2.1",
     "@next/bundle-analyzer": "^9.1.4",
     "antd": "4.3.0",
+    "axios": "^0.21.0",
     "babel-plugin-import": "1.13.0",
     "cross-env": "^7.0.2",
     "dayjs": "1.8.28",
     "esm": "^3.2.25",
+    "jsonwebtoken": "^8.5.1",
     "next": "latest",
     "postcss-preset-env": "^6.7.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "sass": "^1.29.0"
   },
   "browser": {
     "fs": false,
